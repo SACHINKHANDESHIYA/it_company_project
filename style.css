@@ -1,0 +1,21 @@
+#imag:hover{
+	width: 280px;
+	scroll-behavior: auto;
+	cursor: pointer;
+}
+.wrapper{
+	max-height: 450px;
+	display: flex;
+	overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+	width: 0;
+}
+.wrapper .item{
+	min-width: 450px;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	background-color: white;
+	margin-right: 20px;
+}
